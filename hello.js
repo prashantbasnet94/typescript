@@ -1,6 +1,4 @@
-// Greets the world.
-console.log("Hello world!");
 function greet(person, date) {
-    console.log('heello' + person + " today is " + date.toDateString());
+    console.log("Hello ".concat(person, ", today is ").concat(date.toDateString(), "!"));
 }
-greet("prashant", new Date());
+greet("Maddison", new Date());
